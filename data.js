@@ -1,34 +1,64 @@
 /* Client content lives here so a new agency can be configured without editing markup. */
 const siteData = {
   businessInfo: {
-    name: "AK Tour and Travel",
-    tagline: "Reliable. Comfortable. Affordable. Your trusted travel partner for Himachal and beyond.",
-    highlight: "Best Taxi Service In Una",
-    phone: "+91 9805256396",
-    address: "Near ISBT, Professor Colony, Una, Himachal Pradesh 174303",
-    email: "info@aktourandtravel.com"
+    name: "Anchal Tour And Travel",
+    tagline: "Explore Manali with Comfortable Rides and Reliable Travel Services.",
+    highlight: "Taxi, Volvo and Hotel Services in Manali",
+    phone: "+91 9816370583",
+    address: "Ward No. 7, Bus Stand, Near Volvo, Rangri, Manali, Himachal Pradesh 175131",
+    email: ""
   },
+
   about: {
-    image: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80",
-    description: "At AK Tour and Travel, we believe travel should be more than just reaching a destination — it should be an unforgettable journey. With years of experience and a passion for exploration, we specialize in creating tailor-made tours across India and beyond. From breathtaking Himalayan adventures to relaxing beach holidays and spiritual pilgrimages, our team ensures every detail is handled with care, comfort, and a personal touch.",
-    founderNote: "Hello, I’m Ajay Kumar, founder of AK Tour and Travel. My personal promise is to make every journey so comfortable and rewarding that you’ll want us to be your travel partner for years to come. We work hard to pair attentive service with some of the region’s best offers.",
-    mission: "To redefine travel by creating meaningful, comfortable, and affordable journeys that inspire exploration and cultural connection.",
-    vision: "To become India’s most trusted and innovative travel partner, known for excellence, transparency, and unforgettable experiences.",
-    values: "Integrity, hospitality, customer satisfaction, and innovation are at the heart of everything we do — ensuring every traveler feels valued."
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "Anchal Tour And Travel is a Manali-based travel service offering local taxi services, Volvo travel assistance between Manali and Delhi, and hotel services. We help travellers explore Manali and plan convenient journeys.",
+    founderNote: "",
+    mission:
+      "To help travellers enjoy convenient and comfortable journeys in and around Manali.",
+    vision:
+      "To become a dependable travel partner for visitors exploring Manali and Himachal Pradesh.",
+    values:
+      "Comfort, reliable travel assistance and customer convenience."
   },
+
   services: [
-    { title: "Local Taxi Service", desc: "Fast and reliable city rides with courteous drivers and well-maintained vehicles." },
-    { title: "Outstation Tours", desc: "Affordable long-distance travel options for families, friends, and business trips." },
-    { title: "Himachal Tours", desc: "Explore the beauty of Himachal with custom-made tour packages and expert guides." },
-    { title: "Airport Pickup & Drop", desc: "On-time airport transfers to and from major airports like Delhi, Chandigarh & Amritsar." },
-    { title: "Wedding Car Rental", desc: "Premium cars for weddings and events to make your day unforgettable and classy." },
-    { title: "Custom Tour Packages", desc: "Tailored travel experiences to suit your budget, schedule, and destination choices." }
+    {
+      title: "Manali Taxi Service",
+      desc: "Taxi services for local travel and exploring Manali."
+    },
+    {
+      title: "Volvo Bus Service",
+      desc: "Travel service between Manali and Delhi, including Delhi to Manali."
+    },
+    {
+      title: "Hotel Booking",
+      desc: "Hotel and accommodation assistance for travellers visiting Manali."
+    },
+    {
+      title: "Scooter Hire",
+      desc: "Scooter hire service for exploring Manali at your own pace."
+    },
+    {
+      title: "Local Sightseeing",
+      desc: "Travel assistance for exploring popular places around Manali."
+    },
+    {
+      title: "Travel Assistance",
+      desc: "Contact Anchal Tour And Travel for assistance with your Manali trip."
+    }
   ],
+
   offers: {
     newCustomerDiscount: "5% OFF",
     returningCustomerDiscount: "10% OFF",
     newCustomerLabel: "5% OFF for New Customers",
-    routes: ["Una to Delhi Airport", "Devi Darshan", "Mathura and Vrindavan", "Khatu Shyam and Salasar Balaji", "Shimla, Manali and Spiti", "Shimla, Rampur Bushahr, Kinnaur and Kaza"]
+    routes: [
+      "Manali to Delhi",
+      "Delhi to Manali",
+      "Manali Local Sightseeing",
+      "Manali and Nearby Destinations"
+    ]
   },
   taxiOptions: [
     { type: "4+1 Seater Hatchback / Sedan", desc: "A comfortable choice for individuals, couples, and small families." },
@@ -47,71 +77,157 @@ const siteData = {
     { car: "Mini Bus", features: "Large group transport • 28+1 Seater", price: "Ask for a quote", image: "https://images.unsplash.com/photo-1595959055458-e30125ac43ea?auto=format&fit=crop&w=1000&q=80", imageAlt: "Passenger bus prepared for group transportation" }
   ],
   whyChooseUs: [
-    { title: "Trusted & Reliable", desc: "We’re known for our reliability and transparency with thousands of satisfied travelers across India." },
-    { title: "24x7 Support", desc: "Round-the-clock customer service to ensure your journey remains stress-free and on time." },
-    { title: "Clean & Well-Maintained Cars", desc: "Our vehicles are sanitized, air-conditioned, and maintained to the highest standards for your comfort." },
-    { title: "Affordable Pricing", desc: "We offer competitive and transparent pricing without compromising quality or comfort." },
-    { title: "All India Network", desc: "From mountains to beaches, our cabs and drivers operate in all major cities and tourist destinations." },
-    { title: "Professional Drivers", desc: "Our drivers are trained, courteous, and experienced to ensure your journey is smooth and safe." }
-  ],
+    {
+      title: "Local Manali Travel Service",
+      desc: "A local travel service based in Manali."
+    },
+    {
+      title: "Multiple Travel Services",
+      desc: "Taxi, scooter hire, Volvo and hotel services."
+    },
+    {
+      title: "Manali to Delhi Connectivity",
+      desc: "Travel assistance for the Manali–Delhi route."
+    },
+    {
+      title: "Hotel Assistance",
+      desc: "Hotel service for travellers planning a Manali visit."
+    },
+    {
+      title: "Easy Contact",
+      desc: "Contact the business directly to discuss your travel requirements."
+    }],
+
   placesToVisit: [
-    { name: "Shimla", desc: "The capital city with colonial architecture and Mall Road charm.", image: "https://images.unsplash.com/photo-1785651975023-2bae16114077?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Manali", desc: "Adventure paradise with snow peaks and river rafting thrills.", image: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Dharamshala", desc: "Home of the Dalai Lama and peaceful monasteries.", image: "https://images.unsplash.com/photo-1584108132271-5189ee552144?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Dalhousie", desc: "Serene hills, pine forests, and colonial charm.", image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80" },
-    { name: "McLeod Ganj", desc: "Tibetan culture, cafes, and stunning views.", image: "https://images.unsplash.com/photo-1584108132271-5189ee552144?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Kullu", desc: "The valley of gods — rivers, temples, and festivals.", image: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Spiti Valley", desc: "Cold desert mountains and ancient monasteries.", image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&w=1200&q=80" },
-    { name: "Kasauli", desc: "A quaint town with British-era vibe and pine trails.", image: "https://images.unsplash.com/photo-1785651975023-2bae16114077?auto=format&fit=crop&w=1200&q=80" }
+    {
+      name: "Solang Valley",
+      desc: "A popular destination near Manali known for mountain views and adventure activities.",
+      image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      name: "Rohtang Pass",
+      desc: "A famous high-altitude mountain destination near Manali.",
+      image: "https://images.unsplash.com/photo-1597074866923-dc0589150358?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      name: "Old Manali",
+      desc: "Explore cafes, local streets and mountain scenery.",
+      image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      name: "Hadimba Temple",
+      desc: "A historic temple surrounded by beautiful cedar forests.",
+      image: "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      name: "Atal Tunnel",
+      desc: "A remarkable road tunnel connecting the Manali region with Lahaul.",
+      image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      name: "Naggar Castle",
+      desc: "A heritage attraction in the Kullu Valley.",
+      image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    }
   ],
+
   temples: [
-    { name: "Hidimba Devi Temple", desc: "Ancient cave temple in Manali, surrounded by cedar forests." },
-    { name: "Baijnath Temple", desc: "Dedicated to Lord Shiva near Palampur, built in 1204 AD." },
-    { name: "Jwala Ji Temple", desc: "Famous for eternal flames in Kangra district, a Shakti Peeth." },
-    { name: "Naina Devi Temple", desc: "Popular hilltop temple with spiritual and scenic value." },
-    { name: "Chintpurni Temple", desc: "A revered Shakti Peeth dedicated to Goddess Chinnamasta." },
-    { name: "Bijli Mahadev Temple", desc: "Shiva temple near Kullu, known for lightning striking its idol." },
-    { name: "Baba Balak Nath Temple", desc: "Major pilgrimage center near Hamirpur, carved in a cave." },
-    { name: "Bagalamukhi Temple", desc: "Located in Bankhandi, devoted to the goddess of power and protection." }
+    {
+      name: "Hadimba Devi Temple",
+      desc: "A famous temple in Manali surrounded by cedar trees."
+    },
+    {
+      name: "Manu Temple",
+      desc: "A temple located in Old Manali."
+    }
   ],
+
   tourPackages: [
-    { tag: "Best Seller", title: "Chandigarh Shimla Manali Chandigarh Tour", desc: "Experience the ultimate Himalayan getaway covering the scenic landscapes of Shimla and the adventure hubs of Manali starting right from Chandigarh.", image: "https://images.unsplash.com/photo-1785651975023-2bae16114077?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Popular", title: "Amritsar to Dharamshala Tour Package", desc: "A perfect blend of spiritual serenity and mountain bliss, taking you from the Golden City of Amritsar straight into the tranquil hills of Dharamshala.", image: "https://images.unsplash.com/photo-1584108132271-5189ee552144?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Trending", title: "Chandigarh Manali Tour", desc: "Escape to the snow-capped peaks and lush valleys of Manali. A quick, refreshing, and action-packed mountain journey starting from Chandigarh.", image: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Scenic", title: "Una to Dharamshala, Mcleodganj, Dalhousie & Khajjiar", desc: "Get picked up from Una and explore the mini-Switzerland of India along with the beautiful Tibetan culture of Mcleodganj.", image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Una Railway Station to Devi Darshan", desc: "A sacred pilgrimage route designed for comfort, taking you seamlessly from the station to the historic and highly revered Devi temples.", offer: "new-customer", image: "https://images.unsplash.com/photo-1752399604089-45a4aabedf81?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Epic Journey", title: "Chandigarh Shimla Sarahan Sangla Kalpa Kaza Manali Tour", desc: "The ultimate Kinnaur and Spiti Valley expedition. Travel through rugged terrains, old monasteries, and raw Himalayan beauty.", image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Heritage", title: "Delhi Agra Jaipur Tour Package", desc: "Immerse yourself in rich Indian heritage. Witness the monumental Taj Mahal, historic Delhi streets, and the imperial palaces of Jaipur.", image: "https://images.unsplash.com/photo-1523980077198-60824a7b2148?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "Bucket List", title: "9 Days Leh Ladakh Tour Package", desc: "An absolute adventure through high-altitude passes, breathtaking blue lakes, and dramatic cold deserts. Truly a once-in-a-lifetime journey.", image: "https://images.unsplash.com/photo-1731317607857-7dc18a434f11?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Una to Delhi Airport Transfer", desc: "Reliable airport drop and pickup service from Una to Delhi, with convenient travel planning and luggage-friendly vehicles.", offer: "new-customer", image: "https://images.unsplash.com/photo-1563089920-90a6a8beebfc?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Mathura and Vrindavan Spiritual Tour", desc: "Plan a comfortable pilgrimage to the sacred temples and historic sites of Mathura and Vrindavan.", offer: "new-customer", image: "https://images.unsplash.com/photo-1752399604089-45a4aabedf81?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Khatu Shyam & Salasar Balaji Tour", desc: "A thoughtfully planned devotional journey to Khatu Shyam Ji and Salasar Balaji.", offer: "new-customer", image: "https://images.unsplash.com/photo-1752399604089-45a4aabedf81?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Shimla, Manali & Spiti Valley Tour", desc: "Discover Himalayan hill towns, mountain roads, and the dramatic landscapes of Spiti on a custom multi-day tour.", offer: "new-customer", image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Shimla, Rampur Bushahr, Kinnaur & Kaza Tour", desc: "Explore the mountain destinations of Shimla, Rampur Bushahr, Kinnaur, and Kaza with a route tailored to your plans.", offer: "new-customer", image: "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Dharamshala, McLeodganj & Chamba Tour", desc: "A scenic Himalayan escape through Dharamshala, McLeodganj, and Chamba, with pickup and drop options available.", offer: "new-customer", image: "https://images.unsplash.com/photo-1584108132271-5189ee552144?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Palampur, Baijnath & Mandi Tour", desc: "Visit tea gardens, heritage temples, and hill towns with a flexible itinerary and convenient return travel.", offer: "new-customer", image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=1200&q=80" },
-    { tag: "5% OFF · New Customers", title: "Kullu, Manikaran & Kasol Tour", desc: "Travel to Kullu, the hot springs and shrines of Manikaran, and the riverside destination of Kasol.", offer: "new-customer", image: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80" }
+    {
+      tag: "Manali",
+      title: "Manali Local Sightseeing",
+      desc: "Explore popular attractions around Manali. Contact us for your preferred itinerary.",
+      image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      tag: "Popular Route",
+      title: "Manali to Delhi",
+      desc: "Ask about available Volvo travel services from Manali to Delhi.",
+      image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      tag: "Return Route",
+      title: "Delhi to Manali",
+      desc: "Plan your journey to Manali and enquire about Volvo travel services.",
+      image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      tag: "Stay",
+      title: "Manali Hotel Assistance",
+      desc: "Contact us for hotel and accommodation assistance in Manali.",
+      image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      tag: "Explore",
+      title: "Manali Scooter Hire",
+      desc: "Enquire about scooter hire for exploring Manali.",
+      image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80"
+    }
   ],
+
   specialDrops: {
-    availability: "24/7 dropping and up-down services are available.",
-    destinations: ["Kangra", "Dharamshala", "McLeodganj", "Chamba", "Dalhousie", "Palampur", "Baijnath", "Mandi", "Kullu", "Manikaran", "Kasol"]
+    availability: "",
+    destinations: [
+      "Manali",
+      "Old Manali",
+      "Solang Valley",
+      "Rohtang Pass",
+      "Naggar",
+      "Kullu"
+    ]
   },
+
   images: {
     shapeOne: "./assets/images/shape-1.png",
     shapeTwo: "./assets/images/shape-2.png",
     shapeThree: "./assets/images/shape-3.png",
-    aboutBanner: "https://images.unsplash.com/photo-1753621005133-d45f2e9fca97?auto=format&fit=crop&w=1200&q=80"
+    aboutBanner:
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1200&q=80"
   },
+
   hero: {
-    kicker: "Taxi service in Una, Himachal Pradesh",
-    title: "Your Journey Across Himachal, Made Easy",
-    text: "Reliable taxi services, comfortable vehicles and thoughtfully planned tours from Una to your favorite destinations.",
+    kicker: "Taxi and Travel Services in Manali",
+    title: "Explore Manali. Travel Comfortably.",
+    text:
+      "Discover Manali with taxi services, Volvo travel assistance, scooter hire and hotel services from Anchal Tour And Travel.",
     image: "./assets/images/hero-banner.png",
-    imageAlt: "AK Tour and Travel journey through Himachal"
+    imageAlt: "Beautiful mountain scenery in Manali"
   },
-  serviceAreas: ["Una", "Amb Andaura", "Chandigarh", "Dharamshala", "Shimla", "Manali", "All Himachal destinations"],
+
+  serviceAreas: [
+    "Manali",
+    "Old Manali",
+    "Rangri",
+    "Solang Valley",
+    "Kullu"
+  ],
+
   socialLinks: [
-    { label: "WhatsApp", icon: "logo-whatsapp", url: "https://wa.me/919805256396" }
+    {
+      label: "Facebook",
+      icon: "facebook",
+      url: "https://www.facebook.com/anchaltourandtravel"
+    },
+    {
+      label: "Instagram",
+      icon: "instagram",
+      url: "https://www.instagram.com/anchaltourandtravel/"
+    },
+    {
+      label: "WhatsApp",
+      icon: "logo-whatsapp",
+      url: "https://wa.me/919816370583"
+    }
   ],
   reviews: {
     rating: 5.0,

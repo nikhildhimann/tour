@@ -31,19 +31,50 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Tourest** locally, run this command on your git bash:
+This project is a static website, so you do not need to install dependencies or run a build.
 
-Linux and macOS:
+#### Option 1: Open directly in browser
 
-```bash
-sudo git clone https://github.com/codewithsadee/tourest.git
-```
-
-Windows:
+Go to the project folder and open `index.html`:
 
 ```bash
-git clone https://github.com/codewithsadee/tourest.git
+cd /home/john/Business\ data/TEMPLATE's/Tour\$trawal/tourest
+xdg-open index.html
 ```
+
+If you are on Windows, just double-click `index.html` in File Explorer.
+
+#### Option 2: Run a local web server (recommended)
+
+From the project folder:
+
+```bash
+cd /home/john/Business\ data/TEMPLATE's/Tour\$trawal/tourest
+python3 -m http.server 8000
+```
+
+Then open this in your browser:
+
+```text
+http://localhost:8000
+```
+
+If `python3` does not work, try:
+
+```bash
+py -m http.server 8000
+```
+
+or with Node.js:
+
+```bash
+npx serve .
+```
+
+### Notes
+
+- No `npm install` is required for this project.
+- Make sure you open the site from the project folder and not from a copied file elsewhere.
 
 ### Contact
 
